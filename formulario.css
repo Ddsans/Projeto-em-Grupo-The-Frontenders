@@ -52,6 +52,29 @@ a.link {
   color: white;
 }
 
+main {
+  display: flex;
+  justify-content: center;
+}
+
+form.row.g-3 {
+  font-family: 'Fredoka One', cursive;
+  color: white;
+  width: 40%;
+  border: 1px solid white;
+  margin-top: 10rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+
+#register {
+  margin-top: 2rem;
+  width: 98%;
+  font-size: 1.5rem;
+}
+
 footer {
   color: white;
   display:flex;
