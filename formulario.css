@@ -60,7 +60,7 @@ main {
 form.row.g-3 {
   font-family: 'Fredoka One', cursive;
   color: white;
-  width: 40%;
+  width: 65%;
   border: 1px solid white;
   margin-top: 10rem;
   padding: 2rem;
@@ -89,7 +89,7 @@ footer {
 }
 
 .col {
-  margin: 0 15rem;
+  margin: 0 5%;
   width: 50rem;
 }
 
@@ -99,4 +99,75 @@ footer {
   min-width: 25rem;
   background-image: url(./img/5.png);
   background-size:cover;
+}
+
+
+
+/* Media Query (adaptação do layout de acordo com o tamanho limitado) */
+@media (max-width: 770px){
+  
+  body {
+    background-attachment:fixed;
+  }
+
+  header {
+    height: 20rem;
+    display: flex;
+    flex-direction:column ;
+  }
+
+  main {
+    display: flex;
+    justify-content: center;
+    height: 100rem;
+  }
+
+  form.row.g-3 {
+    font-family: 'Fredoka One', cursive;
+    color: white;
+    width: 90%;
+    border: 1px solid white;
+    margin-top: 10rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    justify-content: center;
+    font-size: 1.2rem;
+  }
+
+  footer {
+    color: white;
+    display:flex;
+    flex-direction: column;
+    align-items: stretch;
+    bottom: 0;
+    position:relative;
+    
+    width: 100%;
+    height: 40rem;
+    padding: 2.5rem;
+  }
+
+  .logo {
+    display:none;
+    min-height: 25rem;
+    min-width: 25rem;
+    background-image: url(./img/5.png);
+    background-size:cover;
+  }
+  div.col:nth-child(1) {
+    display: none;
+  }
+  
+  div.col p, h2 {
+    font-family: 'Fredoka One', cursive;
+  }
+
+  div.col h2 {
+    font-size: 2rem;
+  }
+
+  div.col p {
+    font-size: 1.2rem;
+  }
+  
 }
