@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  font-family: 'Fredoka One', cursive;
 }
 
 :root {
@@ -45,7 +46,6 @@ nav {
 }
 
 a.link {
-  font-family: 'Fredoka One', cursive;
   font-size: 26px;
   line-height: 31px;
   text-decoration: none;
@@ -58,7 +58,6 @@ main {
 }
 
 form.row.g-3 {
-  font-family: 'Fredoka One', cursive;
   color: white;
   width: 65%;
   border: 1px solid white;
@@ -115,10 +114,13 @@ div.col a {
   line-height: 3rem;
 }
 
+footer .col:nth-child(2) p{
+  margin-top: 1rem;
+}
+
 .ico {
   display: flex;
   flex-direction: row;
-  padding-bottom: 3rem;
 }
 
 /* Media Query (adaptação do layout de acordo com o tamanho limitado) */
@@ -140,27 +142,12 @@ div.col a {
     height: 100rem;
   }
 
-  form.row.g-3 {
-    font-family: 'Fredoka One', cursive;
-    color: white;
-    width: 90%;
-    border: 1px solid white;
-    margin-top: 10rem;
-    padding: 2rem;
-    border-radius: 1rem;
-    justify-content: center;
-    font-size: 1.2rem;
-  }
-
   footer {
-    color: white;
     display:flex;
     flex-direction: column;
     align-items: stretch;
-    bottom: 0;
     position:relative;
     
-    width: 100%;
     height: 40rem;
     padding: 2.5rem;
   }
