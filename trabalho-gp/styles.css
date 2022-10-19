@@ -24,7 +24,7 @@ img{
           flex-direction: row;
           justify-content: space-around;
           align-items: center;
-          gap: 30px;
+          padding-left: 100px;
         
       }
       li{ display: flex;
@@ -52,6 +52,12 @@ img{
      margin-right: 300px;
      margin-top: 50px;
 }   
+#div{
+    width: 100px;
+    height: 100px;
+    background-color: #ffff
+
+}
 
 
 

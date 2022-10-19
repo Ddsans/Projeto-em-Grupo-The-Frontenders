@@ -1,2 +1,3 @@
-document.getElementById("ftequipe")
+//document.getElementById("ftequipe")
+
 
