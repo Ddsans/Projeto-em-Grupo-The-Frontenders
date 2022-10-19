@@ -41,52 +41,53 @@
   </header>
 
   <main>
-    <form class="row g-3">
+    <form class="row g-3" oninput='up2.setCustomValidity(up2.value != up.value ? "Passwords do not match." : "")'>
       <div class="col-md-6">
-        <label for="name" class="form-label">Nome</label>
-        <input type="text" class="form-control" id="name">
+        <label for="inputName" class="form-label">Nome</label>
+        <input type="text" class="form-control" id="inputName" required>
+        </div>
       </div>
       <div class="col-md-6">
         <label for="inputEmail4" class="form-label">Email</label>
-        <input type="email" class="form-control" id="inputEmail4">
+        <input type="email" class="form-control" id="inputEmail4" required>
       </div>
       <div class="col-md-6">
         <label for="inputPassword4" class="form-label">Senha</label>
-        <input type="password" class="form-control" id="inputPassword4">
+        <input type="password" class="form-control" id="inputPassword4" required name=up>
       </div>
       <div class="col-md-6">
         <label for="inputPassword5" class="form-label">Confirmação da senha</label>
-        <input type="password" class="form-control" id="inputPassword5">
+        <input type="password" class="form-control" id="inputPassword5" name=up2>
       </div>
       <div class="col-md-2">
         <label for="cep" class="form-label">CEP</label>
-        <input type="number" class="form-control" id="cep">
+        <input type="number" class="form-control" id="cep" required>
       </div>
       <div class="col-md-1">
         <label for="uf" class="form-label">UF</label>
-        <input type="text" class="form-control" id="uf">
+        <input type="text" class="form-control" id="uf" required>
       </div>
       <div class="col-md-4">
         <label for="cidade" class="form-label">Cidade</label>
-        <input type="text" class="form-control" id="cidade">
+        <input type="text" class="form-control" id="cidade" required>
       </div>
       <div class="col-md-5">
         <label for="bairro" class="form-label">Bairro</label>
-        <input type="text" class="form-control" id="bairro">
+        <input type="text" class="form-control" id="bairro" required>
       </div>
       <div class="col-md-5">
         <label for="rua" class="form-label">Rua</label>
-        <input type="text" class="form-control" id="rua">
+        <input type="text" class="form-control" id="rua" required>
       </div>
       <div class="col-md-1">
         <label for="inputNum" class="form-label">Nº</label>
-        <input type="number" class="form-control" id="inputNum">
+        <input type="number" class="form-control" id="inputNum" required>
       </div>
       <div class="col-md-6">
         <label for="inputNum" class="form-label">Complemento</label>
         <input type="text" class="form-control" id="inputNum">
       </div>
-      <button type="button" class="btn btn-outline-light" id="register">Cadastrar</button>
+      <button type="submit" class="btn btn-outline-light" id="register">Cadastrar</button>
     </form>
 
   </main>
