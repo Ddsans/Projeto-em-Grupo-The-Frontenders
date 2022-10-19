@@ -28,12 +28,9 @@ header {
   gap: 10%;
 }
 
-.img {
-  display:flex;
-  min-height: 25rem;
-  min-width: 25rem;
-  background-image: url(./img/3.png);
-  background-size: contain;
+header img {
+  width: 30rem;
+  margin: 2rem;
 }
 
 nav {
