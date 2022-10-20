@@ -58,3 +58,7 @@ $(document).ready(function() {
       }
   });
 });
+
+function myFunction() {
+    alert("Cadastro realizado!");
+  }

@@ -11,7 +11,7 @@
   <title>Cadastro</title>
 
   <!-- link com o JS -->
-  <script src="./main.js" defer></script>
+  <script src="./formain.js" defer></script>
 
     <!-- Adicionando JQuery -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
@@ -41,7 +41,7 @@
   </header>
 
   <main>
-    <form class="row g-3" oninput='up2.setCustomValidity(up2.value != up.value ? "Passwords do not match." : "")'>
+    <form class="row g-3" onsubmit="myFunction()" oninput='up2.setCustomValidity(up2.value != up.value ? "Passwords do not match." : "")'>
       <div class="col-md-6">
         <label for="inputName" class="form-label">Nome</label>
         <input type="text" class="form-control" id="inputName" required>
