@@ -1,8 +1,9 @@
 body {
-  background-color: #432186;
+  background-image: linear-gradient(to bottom, #1e0e39, #432186);
   display: flex;
   flex-direction: column;
   height: 100%;
+  background-attachment:fixed;
 }
  
 header {
