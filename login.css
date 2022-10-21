@@ -78,6 +78,10 @@ header {
   display: flex;
   flex-direction: column;
 }
+
+div.col-auto {
+  margin: 1rem auto;
+}
     
 .form-label {
   margin-bottom: 0.5rem;
