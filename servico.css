@@ -13,10 +13,11 @@
 
 
 body {
-  background-color:#1e0e39;
+  background-image: linear-gradient(to bottom, #1e0e39, #432186);
   display: flex;
   flex-direction: column;
   height: 100%;
+  background-attachment:fixed;
 }
 
 header {
@@ -100,6 +101,43 @@ footer {
     
     background-color: #1e0e39;
     width: 100%;
-    height: 20%;
+    height: 25%;
     padding: 2.5rem;
+  }
+
+  footer .col:nth-child(1) img{
+    width: 30rem;
+  }
+  
+  footer .col:nth-child(1) p{
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+  }
+  
+  div.col a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .col {
+    margin: 0 5%;
+    width: 50rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  
+  .col h2 {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  
+  footer .col:nth-child(2) p{
+    margin-top: 1rem;
+  }
+  
+  .ico {
+    display: flex;
+    flex-direction: row;
   }
