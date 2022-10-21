@@ -34,7 +34,13 @@ a.link {
     line-height: 31px;
     text-decoration: none;
     color: white;
+    transition: transform 500ms;  
 }
+
+a.link:hover {
+    transform: scale(1.1);
+  }
+  
 
 @media (max-width: 1080px){
 body {
