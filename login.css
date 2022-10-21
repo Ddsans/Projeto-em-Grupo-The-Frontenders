@@ -1,0 +1,168 @@
+body {
+  background-color: #432186;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+ 
+header {
+  height: 15rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10%;
+}
+  
+header img {
+  width: 15rem;
+  margin: 2rem;
+}
+  
+.form-label {
+  margin-bottom: 0.5rem;
+  color: #FFFFFF;
+  font-family: 'Fredoka One', cursive;
+  font-size: 15px;
+  line-height: 31px;
+  text-decoration: none;
+  color: white;
+}
+  
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 3.5rem;
+}
+
+.form-check-label {
+  cursor: default;
+  font-family: 'Fredoka One', cursive;
+  font-size: 15px;
+  line-height: 31px;
+  text-decoration: none;
+  color: white;
+}
+  
+a.link {
+  font-family: 'Fredoka One', cursive;
+  font-size: 26px;
+  line-height: 31px;
+  text-decoration: none;
+  color: white;
+}
+  
+a.link-light {
+  font-family: 'Fredoka One', cursive;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 1080px){
+body {
+  background-attachment: fixed;
+}
+    
+header {
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+}
+    
+.form-label {
+  margin-bottom: 0.5rem;
+  color: #FFFFFF;
+  font-family: 'Fredoka One', cursive;
+  font-size: 15px;
+  line-height: 31px;
+  text-decoration: none;
+  color: white;
+}
+    
+.form-check-label {
+  cursor: default;
+  font-family: 'Fredoka One', cursive;
+  font-size: 15px;
+  line-height: 31px;
+  text-decoration: none;
+  color: white;  
+}
+    
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 3.5rem;
+}
+    
+    
+a.link {
+  font-family: 'Fredoka One', cursive;
+  font-size: 26px;
+  line-height: 0px;
+  text-decoration: none;
+  color: white;
+}
+    
+a.link-light {
+  font-family: 'Fredoka One', cursive;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+}
+  
+footer {
+  color: white;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+  position: fixed;
+  
+  width: 100%;
+  height: 20%;
+}
+
+footer .col:nth-child(1) img{
+  width: 15rem;
+}
+
+footer .col:nth-child(1) p{
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+}
+
+div.col a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: white;
+}
+
+.col {
+  margin: 0 5%;
+  width: 50rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.col h2 {
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+footer .col:nth-child(2) p{
+  margin-top: 1rem;
+}
+
+.ico {
+  display: flex;
+  flex-direction: row;
+}
+}
